@@ -1,0 +1,2 @@
+Long connection -> (+)
+Must be protected with a resistor

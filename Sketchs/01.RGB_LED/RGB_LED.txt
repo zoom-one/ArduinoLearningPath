@@ -1,0 +1,3 @@
+Long Connection -> Ground (-) 
+(Red)(Ground)(Green)(Blue) -> (+)(-)(+)(+)
+Protect with a resistor
