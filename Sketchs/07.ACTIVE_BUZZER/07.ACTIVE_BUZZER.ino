@@ -11,8 +11,8 @@ void loop() {
   // {
     for(i=0; i<200;i++) // duration
     {
-      // frecuency: fixed to 500HZ. The higher delay gives lower sound
-      digitalWrite(buzzer, HIGH); 
+      // frecuency: The higher delay gives lower sound
+      digitalWrite(buzzer, HIGH); // do not use analogWrite because pulse output is fixed to 500HZ!
       delay(5); 
       digitalWrite(buzzer, LOW);
       delay(5);
